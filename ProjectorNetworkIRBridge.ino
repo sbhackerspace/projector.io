@@ -396,6 +396,6 @@ void loop() {
     delay(1);
     // Close the connection:
     client.stop();
-    Serial.println("Client disonnected");
+    Serial.println("Client disconnected");
   }
 }
