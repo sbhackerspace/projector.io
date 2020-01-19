@@ -385,6 +385,8 @@ void loop() {
           break;
         }
 
+        free(pathsegments);
+
         if (c == '\n') {
           currentLineIsBlank = true;
         } else if (c != '\r') {
